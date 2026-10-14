@@ -1,0 +1,25 @@
+101 ICON "adventurer.ico"
+
+1 VERSIONINFO
+FILEVERSION 0,3,0,0
+PRODUCTVERSION 0,3,0,0
+FILEOS 0x40004
+FILETYPE 0x1
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "Agent Guild - live Codex adventure\0"
+            VALUE "FileVersion", "0.3.0\0"
+            VALUE "InternalName", "AgentGuild\0"
+            VALUE "OriginalFilename", "AgentGuild.exe\0"
+            VALUE "ProductName", "Agent Guild\0"
+            VALUE "ProductVersion", "0.3.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END

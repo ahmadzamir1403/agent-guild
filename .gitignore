@@ -1,0 +1,42 @@
+# Local toolchains and generated builds
+/tools/
+/dist/
+*.exe
+*.res
+*.zip
+*.pdb
+*.obj
+*.o
+.zig-cache/
+zig-out/
+__pycache__/
+*.pyc
+# Diagnostics may contain private task metadata
+/test-home/
+/test-home-native/
+/protocol-schema/
+/probe.json
+/preview.*
+/*-preview.png
+/*measurements.json
+/transport-test-results.json
+/embedded-icon.png
+/zig-release.json
+/verify-*.ps1
+/verify-*.py
+# Separate local video project
+/video/
+# Credentials and editor state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+.vscode/
+.idea/
+.DS_Store
+/RELEASE-NOTES.md
+/LINKEDIN-POST.txt
+/PUBLISH.ps1
